@@ -133,8 +133,8 @@ body{
 /*----------hero----------*/
 
 .hero{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color: var(--primery-text-color);
 }
 .hero-title{
@@ -192,7 +192,6 @@ body{
 
 .about-list{
     display: flex;
-    margin-bottom: 30px;
     margin-left: -30px;
 }
 
@@ -203,7 +202,6 @@ body{
 
 .about-text{
     margin-top: 10px;
-    margin-bottom: 94px;
     min-width: 270px;
     font-size: 14px;
     line-height: 1.71;
@@ -214,7 +212,6 @@ body{
 /*----------work-foto----------*/
 
 .work-foto{
-    padding-top: 94px;
     padding-bottom: 94px;
 }
 .title{
@@ -277,8 +274,11 @@ body{
 .command-item-desciption{
     padding-top: 30px;
     margin-bottom: 30px;
+    text-align: center;
 }
+
 .speciality{
+    padding-top: 8px;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -359,6 +359,7 @@ body{
 }
 
 .visually-list{
+    padding-bottom: 50px;
     display: flex;
     margin-left: 52px;
     justify-content: center;
@@ -372,10 +373,14 @@ body{
 
 .visually-item{
     flex-basis: calc(100% / 5 -52px);
-    margin-left: 52px;
+    margin-left: 8px;
 }
 
 .visually-btn{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 22px;
+    padding-left: 22px;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -386,17 +391,13 @@ body{
 }
 
 .btn-accent{
-    color: var(--accent-color);
+    color: var(--primary-title-color);
+    background-color: var(--accent-color);
 }
 
 .visually-btn:hover, .visually-btn:focus{
     color: var(--accent-color);
 }
-
-.hiden-visually-img{
-    padding-top: 56px;
-}
-
 
 .hidden-list{
     display: flex;
@@ -416,8 +417,13 @@ body{
     margin-bottom: 30px;
 }
 
+.hiden-about{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #EEEEEE;
+}
+
 .hidden-lines{
-    margin-top: 20px;
     margin-left: 24px;
     font-weight: 700;
     font-size: 18px;
@@ -427,8 +433,7 @@ body{
 }
 
 .hidden-text{
-    margin-top: 4px;
-    margin-bottom: 20px;
+    padding-top: 4px;
     margin-left: 24px;
     font-weight: normal;
     font-size: 16px;

@@ -47,7 +47,7 @@ body{
 .header{
     padding-top: 24px;
     padding-bottom: 25px;
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-container{
@@ -273,7 +273,7 @@ body{
 
 .command-item-desciption{
     padding-top: 30px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
@@ -347,9 +347,6 @@ body{
 
 /*----------header portfolio----------*/
 
-.header-site-portfolio{
-    color: var(--second-text-color)
-}
 
 /*----------visually----------*/
 
@@ -361,13 +358,18 @@ body{
 .visually-list{
     padding-bottom: 50px;
     display: flex;
-    margin-left: 52px;
+    margin-left: -8px;
     justify-content: center;
+    
+}
+
+.visually-btn{
+    border: none;
+    text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    margin-left: -8px;
     color: var(--primery-text-color);
 }
 
@@ -406,11 +408,12 @@ body{
 .hiden-about{
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
     border: 1px solid #EEEEEE;
 }
 
 .hidden-lines{
-    margin-left: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -420,7 +423,6 @@ body{
 
 .hidden-text{
     padding-top: 4px;
-    margin-left: 24px;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.87;

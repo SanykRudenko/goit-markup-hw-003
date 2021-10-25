@@ -245,6 +245,7 @@ body{
 .section-command{
     padding-top: 94px;
     padding-bottom: 94px;
+    background-color: #F5F4FA;
 }
 
 .title-command{
@@ -265,6 +266,7 @@ body{
 .command-item{
     flex-basis: calc(100% / 4 -30px);
     margin-left: 30px;
+    background-color: var(--primary-title-color);
 }
 
 .name{
@@ -285,10 +287,49 @@ body{
 
 .speciality{
     padding-top: 8px;
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--second-text-color)
+}
+
+.social-list{
+    display: flex;
+    justify-content: center;
+}
+
+.social-item{
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}
+
+.social-item:last-child{
+    margin-right: 0;
+}
+
+.social-icon{
+    fill: var(--primary-title-color);
+}
+
+.social-link{
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-title-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link:hover, .social-link:focus{
+    background-color: var(--accent-color);
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon{
+    fill: var(--accent-color);
 }
 
 /*----------footer-class----------*/

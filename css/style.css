@@ -92,9 +92,6 @@ body{
     color: var(--primery-text-color);
 }
 
-.menu-link-accent-color{
-    color: var(--accent-color);
-}
 
 .menu-link:hover, .menu-link:focus{
     color: var(--accent-color);
@@ -110,7 +107,7 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--accent-color);
+    color: var(--second-text-color);
 }
 
 .contact-icon{
@@ -120,7 +117,7 @@ body{
 }
 
 .header-site:hover, .header-site:focus{
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 .header-tel{
@@ -633,4 +630,12 @@ body{
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--second-text-color)
+}
+
+.hiden-link{
+    display: block;
+}
+
+.hiden-link:hover, .hiden-link:focus{
+    background-color: rgba(0, 0, 0, 0.06);
 }
